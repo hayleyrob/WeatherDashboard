@@ -1,1 +1,2 @@
-# WeatherDashboard
+# Day-Planner
+Day Planner Assignment
