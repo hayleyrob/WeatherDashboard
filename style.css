@@ -1,82 +1,17 @@
 body {
-  font-family: Lato;
-  font-size: 15px;
-  /* line-height: 1; */
+
+  background-image: url("https://lh3.googleusercontent.com/proxy/7dKTIUAKevCIO-ljZCRTgqZKe4BMPJ7ZviBo7Qt4xUbYdw6sQ276mqoHUAzL4hpm7GPRLof-KJtWgYss8moyHPAS9DecGZskP30wO7ci");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid rgb(40, 38, 38);
-  padding: 10px;
+#weatherInfo {
+  background-color: black;
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
-.description {
-  white-space: pre-wrap;
-  width: 85%;
-  vertical-align: text-top;
-}
-
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-  ;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-  width: 7%;
-}
-
-.hour p {
-  text-align: right;
-  margin-right: 10%;
-}
-
-.past {
-  background-color: #d6d3d3;
-  width: 85%;
-}
-
-.present {
-  background-color: #4c7ec0;
-  width: 85%;
-}
-
-.future {
-  background-color: #d6709b;
-
-  width: 85%;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-  width: 7%;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+#weatherInfo p {
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
 }
